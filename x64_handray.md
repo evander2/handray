@@ -4,7 +4,7 @@
 ```C
 int main(void){
     int iVar1;
-    long lVar2;
+    long i;
     long *plVar3;
     long in_FS_OFFSET;
     byte bVar4;
@@ -22,7 +22,7 @@ int main(void){
         local_78 = 0;
         local_70 = 0;
         plVar3 = local_68;
-        for (lVar2 = 10; lVar2 != 0; lVar2 = lVar2 + -1) {
+        for (i = 10; i!=0; i = i + -1) {
             *plVar3 = 0;
             plVar3 = plVar3 + (ulong)bVar4 * -2 + 1;
         }
@@ -39,7 +39,7 @@ int main(void){
 }
 ```
 
-먼저 
+먼저 스택에 0x80만큼의 공간을 할당하고 setup 함수를 호출한다. 그 뒤 
 
 
 
