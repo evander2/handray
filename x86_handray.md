@@ -2,23 +2,23 @@
 
 main 함수를 handray 하였다.
 
-```
+
+```C
 
 
-int main(int argc, const char* argv[]){
-  int a=0x4030201
-  fgets();
+int main(void){
+  char buf[40];
   
-  int b=0x804a040
-  for(in
+
+
+
+}
+  
   
    
 
 
 
-}
-
 ```
-
 
 
